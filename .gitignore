@@ -1,0 +1,11 @@
+# Managed by Composer
+/vendor/
+
+# PhpStorm
+.idea/
+
+# Php unit cache file
+.phpunit.result.cache
+
+# PHPCS cache file
+.php_cs.cache

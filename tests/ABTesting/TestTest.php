@@ -7,9 +7,6 @@ namespace AMoretti\PhpTest\Tests\ABTesting;
 use AMoretti\PhpTest\ABTesting\Test;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @internal
- */
 class TestTest extends TestCase
 {
     /**
@@ -46,6 +43,9 @@ class TestTest extends TestCase
     }
 
     /**
+     * Assert that the variation is on a proper rate for the usage value
+     * - if variation value is 33, the rate should be between 0.32 and 0.34;
+     *
      * @group abTest
      * @dataProvider provideVariations
      */
